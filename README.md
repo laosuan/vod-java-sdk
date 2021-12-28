@@ -29,7 +29,7 @@ VOD Java SDK 是基于云点播上传功能进行包装的 Java 版本 SDK，SDK
 ```
 
 ## 测试
-SDK 提供了丰富的测试用例，开发者可以参考示例的调用方式，具体参考：[测试用例](https://github.com/tencentyun/vod-java-sdk/blob/master/src/test/java/com/qcloud/vod/VodUploadClientTest.java)。
+SDK 提供了丰富的测试用例，开发者可以参考示例的调用方式，具体参考：[测试用例](https://github.com/laosuan/vod-java-sdk/blob/master/src/test/java/com/qcloud/vod/VodUploadClientTest.java)。
 开发者可以通过运行命令查看测试用例的执行情况：
 export SECRET_ID=
 export SECRET_KEY=
@@ -38,7 +38,7 @@ mvn test
 ```
 
 ## 变更记录
-每个版本的变更细节都记录在日志中，具体请看：[变更日志](https://github.com/tencentyun/vod-java-sdk/releases)。
+每个版本的变更细节都记录在日志中，具体请看：[变更日志](https://github.com/laosuan/vod-java-sdk/releases)。
 
 ## 贡献者
 感谢以下的开发者对项目的大力支持，欢迎更多的开发者参与进来！
@@ -46,4 +46,4 @@ mvn test
 <a href="https://github.com/xujianguo"><img width=50 height=50 src="https://avatars1.githubusercontent.com/u/7297536?s=60&v=4" /></a><a href="https://github.com/soulhdb"><img width=50 height=50 src="https://avatars3.githubusercontent.com/u/5770953?s=60&v=4" /></a>
 
 ## 许可证
-[MIT](https://github.com/tencentyun/vod-java-sdk/blob/master/LICENSE)
+[MIT](https://github.com/laosuan/vod-java-sdk/blob/master/LICENSE)

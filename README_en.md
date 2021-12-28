@@ -29,14 +29,14 @@ We recommend you use Maven to install the SDK:
 ```
 
 ## Test
-The SDK provides a wealth of test cases. You can refer to their call methods. For more information, please see [Test Cases](https://github.com/tencentyun/vod-java-sdk/blob/master/src/test/java/com/qcloud/vod/VodUploadClientTest.java).
+The SDK provides a wealth of test cases. You can refer to their call methods. For more information, please see [Test Cases](https://github.com/laosuan/vod-java-sdk/blob/master/src/test/java/com/qcloud/vod/VodUploadClientTest.java).
 You can view the execution of test cases by running the following command:
 ```xml
 mvn test
 ```
 
 ## Release Notes
-The changes of each version are recorded in the release notes. For more information, please see [Release Notes](https://github.com/tencentyun/vod-java-sdk/releases).
+The changes of each version are recorded in the release notes. For more information, please see [Release Notes](https://github.com/laosuan/vod-java-sdk/releases).
 
 ## Contributors
 We appreciate the great support of the following developers to the project, and you are welcome to join us.
@@ -44,4 +44,4 @@ We appreciate the great support of the following developers to the project, and 
 <a href="https://github.com/xujianguo"><img width=50 height=50 src="https://avatars1.githubusercontent.com/u/7297536?s=60&v=4" /></a><a href="https://github.com/soulhdb"><img width=50 height=50 src="https://avatars3.githubusercontent.com/u/5770953?s=60&v=4" /></a>
 
 ## License
-[MIT](https://github.com/tencentyun/vod-java-sdk/blob/master/LICENSE)
+[MIT](https://github.com/laosuan/vod-java-sdk/blob/master/LICENSE)

@@ -3,16 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.com.gf.ask</groupId>
     <artifactId>vod_api</artifactId>
-    <version>2.1.5</version>
+    <version>2.1.5-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>vod-java-sdk</name>
     <description>vod sdk for tencentyun,remove slf4j-log4j12</description>
-    <url>https://github.com/tencentyun/vod-java-sdk</url>
+    <url>https://github.com/laosuan/vod-java-sdk</url>
 
     <licenses>
         <license>
             <name>vod-java-sdk</name>
-            <url>https://github.com/tencentyun/vod-java-sdk</url>
+            <url>https://github.com/laosuan/vod-java-sdk</url>
         </license>
     </licenses>
 
@@ -57,9 +57,9 @@
 	</dependencies>
 
     <scm>
-        <connection>scm:git:https://github.com/tencentyun/vod-java-sdk.git</connection>
-        <developerConnection>scm:git:https://github.com/tencentyun/vod-java-sdk.git</developerConnection>
-        <url>https://github.com/tencentyun/vod-java-sdk</url>
+        <connection>scm:git:https://github.com/laosuan/vod-java-sdk.git</connection>
+        <developerConnection>scm:git:https://github.com/laosuan/vod-java-sdk.git</developerConnection>
+        <url>https://github.com/laosuan/vod-java-sdk</url>
       <tag>vod_api-2.1.5</tag>
   </scm>
 
