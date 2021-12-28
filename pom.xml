@@ -72,19 +72,12 @@
 
     <distributionManagement>
         <repository>
-            <id>oss</id>
-            <name>vod-java-sdk</name>
-            <url>
-                https://oss.sonatype.org/service/local/staging/deploy/maven2
-            </url>
+            <id>releases</id>
+            <url>http://maven.gf.com.cn/releases</url>
         </repository>
-
         <snapshotRepository>
-            <id>oss</id>
-            <name>vod-java-sdk</name>
-            <url>
-                https://oss.sonatype.org/content/repositories/snapshots
-            </url>
+            <id>snapshots</id>
+            <url>http://maven.gf.com.cn/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
