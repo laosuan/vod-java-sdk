@@ -31,6 +31,8 @@ VOD Java SDK 是基于云点播上传功能进行包装的 Java 版本 SDK，SDK
 ## 测试
 SDK 提供了丰富的测试用例，开发者可以参考示例的调用方式，具体参考：[测试用例](https://github.com/tencentyun/vod-java-sdk/blob/master/src/test/java/com/qcloud/vod/VodUploadClientTest.java)。
 开发者可以通过运行命令查看测试用例的执行情况：
+export SECRET_ID=
+export SECRET_KEY=
 ```xml
 mvn test
 ```
