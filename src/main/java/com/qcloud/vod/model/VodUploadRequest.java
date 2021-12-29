@@ -23,6 +23,10 @@ public class VodUploadRequest extends ApplyUploadRequest {
 
     private Integer ConcurrentUploadNumber;
 
+    private Long subAppId;
+
+    private String Procedure;
+
     public VodUploadRequest() {}
 
     public VodUploadRequest(String mediaFilePath) {
@@ -37,6 +41,22 @@ public class VodUploadRequest extends ApplyUploadRequest {
     public VodUploadRequest(String mediaFilePath, String coverFilePath, String procedure) {
         this(mediaFilePath, coverFilePath);
         this.setProcedure(procedure);
+    }
+
+    public String getProcedure() {
+        return Procedure;
+    }
+
+    public void setProcedure(String procedure) {
+        Procedure = procedure;
+    }
+
+    public Long getSubAppId() {
+        return subAppId;
+    }
+
+    public void setSubAppId(Long subAppId) {
+        this.subAppId = subAppId;
     }
 
     public String getMediaFilePath() {

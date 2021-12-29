@@ -1,5 +1,6 @@
 package com.qcloud.vod;
 
+import com.qcloud.vod.common.StringUtil;
 import com.qcloud.vod.exception.VodClientException;
 import com.qcloud.vod.model.VodUploadRequest;
 import com.qcloud.vod.model.VodUploadResponse;
@@ -109,9 +110,16 @@ public class VodUploadClientTest {
 
     @Test
     public void uploadMedia() throws Exception {
-        VodUploadRequest request = new VodUploadRequest("video/Wildlife.mp4", "video/Wildlife-Cover.png");
-        request.setStorageRegion("ap-chongqing");
+        VodUploadRequest request = new VodUploadRequest("video/Wildlife.mp4");
         request.setMediaName("test-20181129-1423");
+        String subAppId = System.getenv("SUB_APP_ID");
+        if (!StringUtil.isEmpty(subAppId)) {
+            request.setSubAppId(Long.valueOf(subAppId));
+        }
+        String procedure = System.getenv("PROCEDURE");
+        if (!StringUtil.isEmpty(procedure)) {
+            request.setProcedure(procedure);
+        }
         VodUploadClient client = initVodUploadClient();
         VodUploadResponse response = client.upload("ap-guangzhou", request);
         logger.info("Upload FileId = {}", response.getFileId());

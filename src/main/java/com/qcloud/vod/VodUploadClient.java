@@ -107,6 +107,11 @@ public class VodUploadClient {
 
 		ApplyUploadRequest applyUploadRequest = ApplyUploadRequest
 				.fromJsonString(VodUploadRequest.toJsonString(request), ApplyUploadRequest.class);
+
+		applyUploadRequest.setSubAppId(request.getSubAppId());
+		if (!StringUtil.isEmpty(request.getProcedure())) {
+			applyUploadRequest.setProcedure(request.getProcedure());
+		}
 		ApplyUploadResponse applyUploadResponse = applyUpload(vodClient, applyUploadRequest);
 		logger.info("ApplyUpload Response = {}", PrintUtil.PrintObject(applyUploadResponse));
 
